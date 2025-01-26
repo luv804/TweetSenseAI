@@ -13,7 +13,11 @@ TweetSenseAI is a sentiment analysis model designed to detect the sentiments exp
 - NLTK: Natural language processing tasks.
 ## About the Dataset
 The dataset used to design this model was sourced from https://www.kaggle.com/datasets/kazanova/sentiment140
-
-
-
-
+## Results
+In the TweetSenseAI project, four machine learning models were trained and evaluated for sentiment analysis on a dataset of 1.6 million tweets:
+- Logistic Regression
+- LinearSVC
+- Naive Bayes
+- SGDClassifiers
+Logistic Regression emerged as the best-performing model, achieving an accuracy of 78.24%, demonstrating its effectiveness in understanding and predicting tweet sentiments. Below is the accuracy comparison graph for all four models.
+![Alt Text](https://github.com/luv804/TweetSenseAI/blob/31c5b3eeaf9d5125d1f69f26cebc77a9c1b75342/images/accuracy_graph.jpg)
